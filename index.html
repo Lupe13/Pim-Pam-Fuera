@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Assets/style.css" type="text/css" />
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PIM PAM FUERA!</title>
+        <link rel="stylesheet" href="./Assets/style.css" type="text/css"/>
+    </head>
+    <body>
+        <header>  
+            <div class="contenedorlogo">
+                <a name="volver-arriba"><img class="logo" src="Assets\images\logo 2.png" alt="PIM PAM FUERA!"/></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="reset.html">Borrar</a></li>
+                    <li><a href="save.html">Guardar</a></li>
+                    <li><a href="share.html">Compartir</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="Container1">
+                <h2>Qué sorteamos</h2>
+                <form>
+                <form name="Sorteo" method="get" action="procesar.php">
+                    <p><label for="concursantes">Concursantes: </label> 
+                    <input type="text" name="Concursantes"></p>
+                </form>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="Container2">
+                <img src="" alt="Pulsa Play para jugar"/>
+                <img src="ruleta.png" width="300" height="150"/>
+                <input type="play" value="PIM PAM"/>
+            </div>
+        </section>
+        <section>
+            <div class="Container3">
+                <h1 class="fuera">Fuera!</h1>
+                <input type="text" name="Concursantes"></p>
+            </div>
+        </section>
+        <footer>
+            <div class="pie">
+                <p>@ <a href="#volver-arriba" style="text-decoration: none; color: black;">Pim Pam Fuera</a></p>
+            </div>
+        </footer>
+    </body>
 </html>
