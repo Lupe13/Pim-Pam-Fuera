@@ -1,0 +1,28 @@
+body {
+    background: #1287bd;
+    font-size: 74px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+body {
+    background: #f8cbde;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+}
+@media (max-width: 380px) {
+    body {
+        background: #e1f6e9;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+}
