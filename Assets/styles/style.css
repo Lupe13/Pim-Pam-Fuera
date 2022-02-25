@@ -76,3 +76,18 @@ body {
         background-size: cover;
     }
 }
+
+.Container1 label {
+    background-color: #aca2e3c4;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+    max-width: min-content;
+    display: block;
+}
+
+.Container1 textarea {
+    background-color: #aca2e3c4;
+    border-radius: 10px;
+    display: block;
+}

@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PIM PAM FUERA!</title>
-        <link rel="stylesheet" href="./Assets/styles/style.css" type="text/css"/>
-    </head>
-    <body>
-        <header>  
-            <div class="containerlogo">
-                <a name="back-to-top"><img class="logo" src="Assets\images\logo 2.png" alt="PIM PAM FUERA!"/></a>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="reset.html">Borrar</a></li>
-                    <li><a href="save.html">Guardar</a></li>
-                    <li><a href="share.html">Compartir</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <label id="Gift">Qué sorteamos:</label>
-        </section>
-        <section id="roulette">
-            <img id="roulette-img" src="Assets/images/roulette.png">
-            <section id="roulette-bkg"></section>
-            <input id="roulette-play" type="play" value="PIM PAM"/>
-        </section>
-        <section>
-            <div class="Container1">
-                
-                <p>
-                    <textarea id="Gift" name="Gift" rows="1" cols="1" style="margin: 0px; width: 146px; height: 20px;"></textarea>
-                </p>
-                <p>
-                <label for="Participants">Participantes:</label>
-                </p>
-                <p>
-                <textarea id="Participants" name="Participants" rows="10" cols="1" style="margin: 0px; width: 146px; height: 223px;"></textarea>
-                </p>               
-            </div>
-        </section>
-        <section>
-            <div class="Container3">
-                <p>
-                    <label for="Out">Fuera!:</label>
-                </p>
-                <p>
-                    <textarea id="Eliminated" name="Eliminated" rows="10" cols="1" style="margin: 0px; width: 146px; height: 223px;"></textarea>
-                </p> 
-            </div>
-        </section>
-        <footer>
-            <div class="Footer">
-                <p>@ <a href="#back-to-top" style="text-decoration: none; color: black;">Pim Pam Fuera</a></p>
-            </div>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIM PAM FUERA!</title>
+    <link rel="stylesheet" href="./Assets/styles/style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="containerlogo">
+        <a name="back-to-top"
+          ><img
+            class="logo"
+            src="Assets\images\logo 2.png"
+            alt="PIM PAM FUERA!"
+        /></a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="reset.html">Borrar</a></li>
+          <li><a href="save.html">Guardar</a></li>
+          <li><a href="share.html">Compartir</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <label id="Gift">Qué sorteamos:</label>
+      <textarea
+        id="Gift"
+        name="Gift"
+        rows="10"
+        cols="20"
+        style="margin: 0px; width: 146px; height: 20px"
+      ></textarea>
+    </section>
+    <section id="roulette">
+      <img id="roulette-img" src="Assets/images/roulette.png" />
+      <section id="roulette-bkg"></section>
+      <input id="roulette-play" type="play" value="PIM PAM" />
+    </section>
+    <section>
+      <div class="Container1">
+        <label for="Participants">Participantes:</label>
+        <textarea
+          id="Participants"
+          name="Participants"
+          rows="10"
+          cols="1"
+          style="margin: 0px; width: 146px; height: 223px"
+        ></textarea>
+      </div>
+    </section>
+    <section>
+      <div class="Container3">
+        <p>
+          <label for="Out">Fuera!:</label>
+        </p>
+        <p>
+          <textarea
+            id="Eliminated"
+            name="Eliminated"
+            rows="10"
+            cols="1"
+            style="margin: 0px; width: 146px; height: 223px"
+          ></textarea>
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="Footer">
+        <p>
+          @
+          <a href="#back-to-top" style="text-decoration: none; color: black"
+            >Pim Pam Fuera</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
