@@ -51,6 +51,30 @@ body {
     width: 100%;
     height: auto;
 }
+.Out {
+    background: rgba(255, 225, 69, 0.8);
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 145PX;
+    margin-right: 155px;
+
+}
+.Eliminated {
+    background: rgba(255, 225, 69, 0.8);
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    margin-left: 110px;
+    margin-right: 80px;
+    width: 150px;
+    height: 80px;
+    
+}
+
 }
 @media (min-width: 380px) and (max-width: 768px) {
     body {
@@ -62,6 +86,30 @@ body {
         width: 100%;
         height: auto;
     }
+    .Out {
+        background: rgba(255, 225, 69, 0.8);
+        border-radius: 20px;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-left: 145PX;
+        margin-right: 155px;
+    
+    }
+    .Eliminated {
+        background: rgba(255, 225, 69, 0.8);
+        border-radius: 20px;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-content: center;
+        margin-left: 110px;
+        margin-right: 80px;
+        width: 150px;
+        height: 80px;
+        
+    }
+    
 
     #Container2
     {
