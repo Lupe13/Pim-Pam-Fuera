@@ -1,28 +1,108 @@
-body {
-    background: #1287bd;
-    font-size: 74px;
-    font-weight: bold;
-}
-
-@media (max-width: 768px) {
-body {
-    background: #f8cbde;
-    font-size: 24px;
-    font-weight: bold;
-}
-.logo{
-    width: 100%;
-    height: auto;
-}
-}
-@media (max-width: 380px) {
+/*Escritorio*/
+    /*Cabecera*/
     body {
-        background: #e1f6e9;
-        font-size: 14px;
+        background: #1287bd;
+        font-size: 24px;
         font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: #FEFDD0;
+        margin: -1%;
+        padding: 1%;
+        width: auto;
+        height: 156px;
+    }
+    .menu{
+        text-align: end;
+        padding-right: 2%;
+    }
+    .menu ul li{
+        padding: 5px 0px 5px 0px;
+    }
+    .enlace-nav{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    .enlace-nav:hover{
+        background:white;
+        transition: .5s;
+        text-decoration: none;
+        color: black;
+    }
+
+/*Tableta*/
+@media  (max-width: 1024px) {
+    body {
+        background: #f8cbde;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /*cabecera*/
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: #FEFDD0;
+        margin: -2%;
+        padding: 1%;
+        width: auto;
+        height: 156px;
     }
     .logo{
         width: 100%;
         height: auto;
     }
 }
+
+/*Móvil*/
+@media(max-width: 430px){
+    body {
+        background: #e1f6e9;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    /*cabecera*/
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: #FEFDD0;
+        margin: -3%;
+        padding: 2% 3%;
+        width: 100%;
+        height: 94px;
+    }
+    .containerlogo{
+        width: 70%;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        width:30%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menu ul li .enlace-nav{
+        font-size: 20px;
+    }
+    .menu ul li .enlace-nav:hover{
+        background: none;
+        color:#e1f6e9; 
+    }
+
+    /*footer*/
+footer{
+    text-align: center;
+}
+}
+
