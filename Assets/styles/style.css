@@ -1,21 +1,58 @@
-body {
-    background: #1287bd;
-    font-size: 74px;
-    font-weight: bold;
+#roulette
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
-@media (max-width: 768px) {
+#roulette-img
+{
+    width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+#roulette-bkg
+{
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    background-color: cornflowerblue;
+    border-radius: 100%;
+}
+
+#roulette-play
+{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    border-radius: 100%;
+    text-align: center;
+    border-color: black;
+    background-color:cornflowerblue;
+    box-sizing: border-box;
+    box-shadow: #e1f6e9;
+    z-index: 1;
+}
+
+
+@media (min-width: 768px) {
 body {
     background: #f8cbde;
     font-size: 24px;
     font-weight: bold;
+    width: 100%;
+    height: 100%;
 }
 .logo{
     width: 100%;
     height: auto;
 }
 }
-@media (max-width: 380px) {
+@media (min-width: 380px) and (max-width: 768px) {
     body {
         background: #e1f6e9;
         font-size: 14px;
@@ -24,5 +61,18 @@ body {
     .logo{
         width: 100%;
         height: auto;
+    }
+
+    #Container2
+    {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    #roulette
+    {
+        background-size: cover;
     }
 }
