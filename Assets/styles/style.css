@@ -1,5 +1,6 @@
 /*Escritorio*/
     /*Cabecera*/
+    @media  (min-width: 1024px) {
     body {
         background: #1287bd;
         font-size: 24px;
@@ -33,6 +34,8 @@
         text-decoration: none;
         color: black;
     }
+    
+}
 
 /*Tableta*/
 @media  (max-width: 1024px) {
@@ -55,39 +58,7 @@
         width: 100%;
         height: auto;
     }
-    .Out {
-        background: rgba(255, 225, 69, 0.8);
-        border-radius: 20px;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin-left: 145PX;
-        margin-right: 155px;
-    
-    }
-    .Eliminated {
-        background: rgba(255, 225, 69, 0.8);
-        border-radius: 20px;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-content: center;
-        margin-left: 110px;
-        margin-right: 80px;
-        width: 150px;
-        height: 80px;
-        
-    }
-    
-
-    #Container2
-    {
-        width: 100%;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-    }
-
+  
     #roulette
     {
         background-size: cover;
@@ -101,6 +72,7 @@
         font-size: 14px;
         font-weight: normal;
     }
+    
     /*cabecera*/
     header{
         display: flex;
@@ -136,10 +108,66 @@
         background: none;
         color:#e1f6e9; 
     }
+    
+       
+}
+    .Container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Container1 {
+        width: 100%;
+    }
+
+    .Container2 {
+       display: flex;
+       width: 100%;
+       justify-content: space-evenly;
+        
+    }
+
+    .Container3 {
+        display: none;
+        width: 50%;
+    }
+
+    .dentro-container1 textarea {
+        background: rgba(172, 162, 227, 0.8);
+        border-radius: 20px;
+ 
+    }
+    .dentro-container1 label {
+        text-align: center;
+        background-color: rgba(172, 162, 227, 0.8);;
+        border-radius: 20px;
+        max-width: 97%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .dentro-container2 textarea {
+        background: rgba(255, 225, 69, 0.8);
+        border-radius: 20px;
+ 
+    }
+    .dentro-container2 label {
+        text-align: center;
+        background-color: rgba(255, 225, 69, 0.8);
+        border-radius: 20px;
+        max-width: 97%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
 
     /*footer*/
 footer{
     text-align: center;
 }
-}
+
 
