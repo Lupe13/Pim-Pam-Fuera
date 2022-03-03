@@ -8,40 +8,7 @@
         height: 100%;
     }
 
-    body {
-        width: 100%;
-        height: 100%;
-        background: #1287bd;
-        font-size: 24px;
-        font-weight: normal;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        background: #FEFDD0;
-        margin: -1%;
-        padding: 1%;
-        width: auto;
-        height: 156px;
-    }
-    .menu{
-        text-align: end;
-        padding-right: 2%;
-    }
-    .menu ul li{
-        padding: 5px 0px 5px 0px;
-    }
-    .enlace-nav{
-        text-decoration: none;
-        color: black;
-        padding: 10px;
-    }
-    .enlace-nav:hover{
-        background:white;
-        transition: .5s;
-        text-decoration: none;
-        color: black;
+    
  *{
         margin: 0%;
     }
@@ -422,7 +389,6 @@
 }
 footer {
     background-color: #FEFDD0;
-}
 }
 
 #roulette
