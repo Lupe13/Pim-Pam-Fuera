@@ -50,6 +50,8 @@ https://trello.com/b/yPMW0YUl/wheel-of-doom
 
 **...and the MockUp in Figma.**
 
+https://www.figma.com/file/RVwMkHy9GWnS3LNFwhlDST/Pim-Pum-Fuera?node-id=0%3A1
+
 <img width="1728" height="600" alt="MockUP" src="https://user-images.githubusercontent.com/99225997/156582622-e62fe4a5-31c0-411e-96eb-167c10688040.jpg">
 
 
