@@ -75,3 +75,7 @@ https://www.figma.com/file/RVwMkHy9GWnS3LNFwhlDST/Pim-Pum-Fuera?node-id=0%3A1
 -  PMuin
 -  Lupe13
 -  Samuel
+
+## **How to use it**
+
+``git clone https://github.com/Lupe13/Pim-Pam-Fuera.git``
