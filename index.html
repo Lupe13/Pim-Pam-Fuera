@@ -8,21 +8,23 @@
         <link rel="stylesheet" href="./Assets/styles/style.css" type="text/css"/>
     </head>
     <body>
-        <header>
-            <div class="containerlogo">
-                <a name="back-to-top"><img class="logo" src="Assets\images\logo 2.png" alt="PIM PAM FUERA!"/></a>
-            </div>
-            <nav class="menu">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                </label>
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-                <ul>
-                    <li><a href="reset.html" class="enlace-nav">Borrar</a></li>
-                    <li><a href="save.html" class="enlace-nav">Guardar</a></li>
-                    <li><a href="share.html" class="enlace-nav">Compartir</a></li>
-                </ul>
-            </nav>
+        <header>   
+            <a name="back-to-top"><img class="logo" src="./Assets/images/logo 2.png" alt="PIM PAM FUERA!"/></a>
+            
+            <button class="toggle" id="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="reset.html" class="enlace-nav">Borrar</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="save.html" class="enlace-nav">Guardar</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="share.html" class="enlace-nav">Compartir</a>
+                </li>
+            </ul>
         </header>
         <div class= "container">
             
@@ -66,6 +68,8 @@
        <div class="containerphoto">  
        </div>
         <footer>
+            <script src="./Assets/Script/Javascript.js"></script>
+            <script src="https://kit.fontawesome.com/7e8a6a232e.js" crossorigin="anonymous"></script>
             <div class="Footer">
                 <p> <a href="#back-to-top" style="text-decoration: none; color: black;">©Pim Pam Fuera</a></p>
             </div>

@@ -1,6 +1,19 @@
-const Toggle = document.querySelector(".toggle")
-const navMenu = document.querySelector(".nav-menu")
+let toggle = document.getElementById("toggle");
+let navmenu = document.getElementsByClassName("enlace-nav");
+let showmenu = false;
 
-Toggle.addEventListener("click", () => {
-    navMenu.classList.toggle("nav-menu_visible");
+toggle.addEventListener("click",function()
+{
+   if(showmenu)
+   {
+      showmenu = false;
+      for(let x = 0; x < navmenu.length; ++x)
+         navmenu.item(x).style.display = "none";
+   }
+   else
+   {
+       showmenu = true;
+      for(let x = 0; x < navmenu.length; ++x)
+         navmenu.item(x).style.display = "block";
+   }
 });
