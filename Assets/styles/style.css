@@ -372,6 +372,7 @@
         background: rgba(172, 162, 227, 0.8);
         border-radius: 20px;
         margin: 10px;
+        width: 109px;
     }
 
      .inside-container2 label {
@@ -392,6 +393,7 @@
         background: rgba(255, 225, 69, 0.8);
         border-radius: 20px;
         margin: 10px;
+        width: 109px;
 
         
     }
