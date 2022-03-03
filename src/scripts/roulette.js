@@ -79,7 +79,7 @@ song.onended = function()
 
 roulette.addEventListener("click", e =>
 {
-    if(song.paused)
+    if(song.paused && participants.length)
     {
         song.play();
         spin = setInterval(function()
