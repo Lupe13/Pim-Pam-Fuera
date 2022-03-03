@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="./Assets/styles/style.css" type="text/css"/>
     </head>
     <body>
-        <header>  
+        <header>
+            <audio src="Assets/_song.mp3" id="song"></audio>
             <div class="containerlogo">
                 <a name="back-to-top"><img class="logo" src="Assets\images\logo 2.png" alt="PIM PAM FUERA!"/></a>
             </div>
@@ -24,6 +25,11 @@
                 </ul>
             </nav>
         </header>
+        <section id="roulette">
+            <img id="roulette-bkg" src="Assets/images/roulette.png" alt="Roulette">
+            <canvas id="roulette-btn"></canvas>
+            <label id="roulette-btn2">PIM PAM</label>
+        </section>
         <section>
             <div class="Container1">
                 
@@ -36,17 +42,6 @@
                 <p>
                 <textarea id="Participants" name="Participants" rows="10" cols="1" style="margin: 0px; width: 146px; height: 223px;"></textarea>
                 </p>               
-            </div>
-        </section>
-        <section>
-            <div class="Container2">
-                <img src="Assets\images\niños con ruletas 1.png" width="250" height="250"/>
-                <p>
-                    <label for="Gift">Qué sorteamos:</label>
-                </p>
-                <p>
-                <input type="play" value="PIM PAM"/>
-                </p>
             </div>
         </section>
         <section>
@@ -63,6 +58,7 @@
             <div class="Footer">
                 <p>@ <a href="#back-to-top" style="text-decoration: none; color: black;">Pim Pam Fuera</a></p>
             </div>
+            <script src="src/scripts/roulette.js"></script>
         </footer>
     </body>
 </html>
