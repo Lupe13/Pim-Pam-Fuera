@@ -37,12 +37,12 @@ The tracking of the project has been done in Trello.
 
 https://trello.com/b/yPMW0YUl/wheel-of-doom
 
-<img width="1728" height="600" alt="captura de pantalla 2022-03-03 081902 Trello" src="https://user-images.githubusercontent.com/99225997/156580642-6764f8ed-c1e5-498c-b82f-8e181dc1e041.jpg">
+<img width="1728" height="450" alt="captura de pantalla 2022-03-03 081902 Trello" src="https://user-images.githubusercontent.com/99225997/156580642-6764f8ed-c1e5-498c-b82f-8e181dc1e041.jpg">
 
 
 **The sketech has been created in Miro**
 
-<img width="1728" height="600" alt="Sketech" src="https://user-images.githubusercontent.com/99225997/156582004-9a63ec1d-3ff0-4c0b-a9dc-7885a93f476c.jpg">
+<img width="1728" height="500" alt="Sketech" src="https://user-images.githubusercontent.com/99225997/156582004-9a63ec1d-3ff0-4c0b-a9dc-7885a93f476c.jpg">
 
 **...the wireframe in Balsamiq**
 
@@ -52,7 +52,7 @@ https://trello.com/b/yPMW0YUl/wheel-of-doom
 
 https://www.figma.com/file/RVwMkHy9GWnS3LNFwhlDST/Pim-Pum-Fuera?node-id=0%3A1
 
-<img width="1728" height="600" alt="MockUP" src="https://user-images.githubusercontent.com/99225997/156582622-e62fe4a5-31c0-411e-96eb-167c10688040.jpg">
+<img width="1728" height="500" alt="MockUP" src="https://user-images.githubusercontent.com/99225997/156582622-e62fe4a5-31c0-411e-96eb-167c10688040.jpg">
 
 
 ## **Tools**
