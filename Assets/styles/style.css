@@ -1,3 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+
+/*Escritorio*/
+    /*Cabecera*/
+    html
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: #1287bd;
+        font-size: 24px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: #FEFDD0;
+        margin: -1%;
+        padding: 1%;
+        width: auto;
+        height: 156px;
+    }
+    .menu{
+        text-align: end;
+        padding-right: 2%;
+    }
+    .menu ul li{
+        padding: 5px 0px 5px 0px;
+    }
+    .enlace-nav{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    .enlace-nav:hover{
+        background:white;
+        transition: .5s;
+        text-decoration: none;
+        color: black;
  *{
         margin: 0%;
     }
@@ -234,6 +278,7 @@
     .nav-menu_visible{
         left: 0px;
     }
+}
 
     .nav-menu li{
         line-height: 120px;
@@ -380,4 +425,37 @@ footer {
 }
 }
 
+#roulette
+{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#roulette-bkg
+{
+    width: 40%;
+    height: auto;
+}
+
+#roulette-btn
+{
+    width: 24vw;
+    height: auto;
+    z-index: 1;
+    margin-top: -3%;
+    margin-left: -21.1%;
+    transform: scale(2);
+}
+
+#roulette-btn2
+{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    font-size: 3vw;
+    text-align: center;
+}

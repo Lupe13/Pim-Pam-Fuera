@@ -8,6 +8,52 @@
         <link rel="stylesheet" href="./Assets/styles/style.css" type="text/css"/>
     </head>
     <body>
+        <header>
+            <audio src="Assets/_song.mp3" id="song"></audio>
+            <div class="containerlogo">
+                <a name="back-to-top"><img class="logo" src="Assets\images\logo 2.png" alt="PIM PAM FUERA!"/></a>
+            </div>
+            <nav class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                </label>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                <ul>
+                    <li><a href="reset.html" class="enlace-nav">Borrar</a></li>
+                    <li><a href="save.html" class="enlace-nav">Guardar</a></li>
+                    <li><a href="share.html" class="enlace-nav">Compartir</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="roulette">
+            <img id="roulette-bkg" src="Assets/images/roulette.png" alt="Roulette">
+            <canvas id="roulette-btn"></canvas>
+            <label id="roulette-btn2">PIM PAM</label>
+        </section>
+        <section>
+            <div class="Container1">
+                
+                <p>
+                    <textarea id="Gift" name="Gift" rows="1" cols="1" style="margin: 0px; width: 146px; height: 20px;"></textarea>
+                </p>
+                <p>
+                <label for="Participants">Participantes:</label>
+                </p>
+                <p>
+                <textarea id="Participants" name="Participants" rows="10" cols="1" style="margin: 0px; width: 146px; height: 223px;"></textarea>
+                </p>               
+            </div>
+        </section>
+        <section>
+            <div class="Container3">
+                <p>
+                    <label for="Out">Fuera!:</label>
+                </p>
+                <p>
+                    <textarea id="Eliminated" name="Eliminated" rows="10" cols="1" style="margin: 0px; width: 146px; height: 223px;"></textarea>
+                </p> 
+            </div>
+        </section>
         <header>   
             <a name="back-to-top"><img class="logo" src="./Assets/images/logo 2.png" alt="PIM PAM FUERA!"/></a>
             
@@ -26,16 +72,6 @@
                 </li>
             </ul>
         </header>
-        <div class= "container">
-            
-                 <div class="container1">
-                    <img src="./Assets/images/roulette.png" width="250" height="250"/>
-                    <div class="inside-container">
-                    <p>
-                    <input type="play" value="PIM PAM"/>
-                    </p>
-                </div>
-           </div>
 
          <div class="container2"> 
            
@@ -73,6 +109,7 @@
             <div class="Footer">
                 <p> <a href="#back-to-top" style="text-decoration: none; color: black;">©Pim Pam Fuera</a></p>
             </div>
+            <script src="src/scripts/roulette.js"></script>
         </footer>
     </body>
 </html>
