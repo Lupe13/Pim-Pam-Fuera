@@ -29,9 +29,9 @@ function getColor()
 
 function drawRoulette(extrarotation = 0)
 {
-    const center = roulette.offsetWidth / 4;
+    const center = roulette.width / 4;
     let canvas = roulette.getContext("2d");
-    canvas.clearRect(0, 0, roulette.offsetWidth, roulette.offsetHeight);
+    canvas.clearRect(0, 0, roulette.width, roulette.height);
     if(participants.length)
     {
         canvas.beginPath();
@@ -60,6 +60,8 @@ function drawRoulette(extrarotation = 0)
         }
     }
 }
+
+roulette.addEventListener("resize", function(){drawRoulette();});
 
 participant.addEventListener("keyup", function()
 {
